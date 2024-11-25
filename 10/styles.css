@@ -4,6 +4,7 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 .caption {
@@ -12,6 +13,25 @@ header {
     padding: 5px;
     font-size: 1.5rem;
     border-radius: 5px;
+}
+
+.image-container {
+    position: relative;
+}
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+}
+
+span:hover {
+    background-color: rgb(83, 83, 83);
+    position: relative;
+    top: 2px;
 }
 
 p {

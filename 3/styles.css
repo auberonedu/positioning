@@ -4,6 +4,20 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 7;
+}
+body {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+span:hover {
+    color: pink;
+    position: relative;
+    top: 3px;
 }
 
 .caption {
@@ -19,3 +33,11 @@ p {
     font-size: 1.5rem;
 }
   
+.image-container {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+}

@@ -1,9 +1,27 @@
+/* Jenn */
+
 header {
     width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+    position: sticky; /* do this instead */
+    top: 0; 
+    left: 0;
+    z-index: 7;
+}
+
+/* the bad way */
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+span:hover {
+    color: pink;
+    position: relative;
+    top: 5px;
 }
 
 .caption {
@@ -18,4 +36,12 @@ p {
     width: 50vw;
     font-size: 1.5rem;
 }
+
+.image-container {
+    position: relative;
+}
   
+.caption {
+    position: absolute;
+    top: 30px;
+}

@@ -4,6 +4,31 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+body {
+    margin-top:100px;
+    margin-left:0px;
+
+}
+
+span:hover {
+    color:Green;
+    position:relative;
+    top: 5px;
+
+}
+
+.image-container {
+    position:relative;
+}
+
+.caption {
+    position:absolute;
+    top: 30px;
 }
 
 .caption {

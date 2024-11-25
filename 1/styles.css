@@ -4,6 +4,21 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position:sticky;
+    top:0;
+    z-index: 7;
+} 
+body { 
+    margin-top:0px; 
+    margin-left:0px;
+} 
+
+span:hover { 
+    color:pink;
+    position:relative;
+    top:5px;
+
+
 }
 
 .caption {
@@ -12,10 +27,20 @@ header {
     padding: 5px;
     font-size: 1.5rem;
     border-radius: 5px;
+    position:relative;
 }
 
 p {
     width: 50vw;
     font-size: 1.5rem;
+}
+.img-container{ 
+    position:relative; 
+
+
+}
+.caption { 
+    position:absolute;
+    top:50%;
 }
   
